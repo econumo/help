@@ -29,7 +29,9 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --theme hugo-book
+        run: |
+          hugo --minify
+          mv en/* .
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

@@ -3,7 +3,13 @@ version: '3'
 
 tasks:
     up:
-        desc: "Start application"
+        desc: "Start"
         cmds:
           - hugo mod clean
           - hugo server --minify -D -v -w --disableFastRender --theme hugo-book
+
+    build:
+        desc: "Build"
+        cmds:
+          - hugo mod clean
+          - hugo --minify --theme hugo-book
