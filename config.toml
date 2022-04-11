@@ -1,0 +1,17 @@
+baseURL = 'https://econumo.app/help/'
+languageCode = 'en-us'
+title = 'Econumo'
+
+copyright = 'Everything is mine'
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    baseURL = 'https://econumo.app/help/'
+    languageName = 'English'
+    title = 'Econumo'
+    weight = 1
+  [languages.ru]
+    baseURL = 'https://econumo.app/help/ru/'
+    languageName = 'Русский'
+    title = 'Econumo'
+    weight = 2
