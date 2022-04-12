@@ -1,4 +1,4 @@
-baseURL = 'https://econumo.app/help/'
+baseURL = 'https://help.econumo.app/'
 title = 'Econumo'
 theme = 'hugo-book'
 
@@ -7,10 +7,12 @@ defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
 [languages]
   [languages.en]
-    baseURL = 'https://econumo.app/help/'
+    baseURL = 'https://help.econumo.app/'
     languageName = 'English'
+    contentDir = 'content/en/'
     weight = 1
   [languages.ru]
-    baseURL = 'https://econumo.app/help/ru/'
+    baseURL = 'https://help.econumo.app/ru/'
     languageName = 'Русский'
+    contentDir = 'content/ru/'
     weight = 2

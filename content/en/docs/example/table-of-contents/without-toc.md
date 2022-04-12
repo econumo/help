@@ -2,6 +2,7 @@
 title: Without ToC
 weight: 2
 bookToc: false
+translationKey: 'WithoutToC'
 ---
 
 # At me ipso nepotibus nunc celebratior genus
